@@ -8,3 +8,8 @@ This project should show how to use kitchen-terraform and inspec inputs for test
 BUNDLE_SILENCE_ROOT_WARNING=true bundle config --local path ./vendor/bundle
 BUNDLE_SILENCE_ROOT_WARNING=true bundle install --jobs=8
 ```
+
+- run verify
+```
+bundle exec kitchen verify
+```
