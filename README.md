@@ -13,3 +13,7 @@ BUNDLE_SILENCE_ROOT_WARNING=true bundle install --jobs=8
 ```
 bundle exec kitchen verify
 ```
+- destroy
+```
+bundle exec kitchen destroy
+```
