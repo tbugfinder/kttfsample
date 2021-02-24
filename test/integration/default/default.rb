@@ -20,8 +20,8 @@ control 'default' do
     it { expect(fixture_output1).to eq 'MyFixtureOutput' }    
   end
 
-  describe 'module outputs' do
-    it { expect(module_outputs.first).to eq exp_moduleoutputs }
-  end
+  #describe 'module outputs' do
+  #  it { expect(module_outputs.first).to eq exp_moduleoutputs }
+  #end
 
 end
